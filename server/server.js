@@ -9,6 +9,11 @@ server.get("/api/users", (req, res) => {
   res.status(200).send(userData.getUsers);
 });
 
+server.post("/api/users/login", (req, res) => {
+  console.log(userData.getUsers)
+  res.status(200).send(userData.getUsers);
+});
+
 server.listen(3000, () => {
   console.log(`Server listening on localhost:3000`);
 });

@@ -2,7 +2,7 @@
     "data": {
         "users": {
             "id":1,
-            "name": "user",
+            "username": "user",
             "email":"user@email.com",
             "password":"1234"
         }
