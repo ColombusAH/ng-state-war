@@ -15,8 +15,19 @@ server.get("/api/users", (req, res) => {
 
 //login
 server.post("/api/users/login", (req, res) => {
-  console.log(userData.getUsers);
-  res.status(200).send(userData.getUsers);
+  console.log("[/api/users/login]");
+  const allUsers = userData.getUsers.users;
+  const creds = req.body.user || {};
+  const user = allUsers.find(
+    (u) => u.email === creds.email && u.password === creds.password
+  );
+
+  console.log(user);
+  if (!!user) {
+    const { password, ...userDetails } = user;
+    return res.status(200).send({ user: userDetails });
+  }
+  return res.status(401);
 });
 
 //tags
@@ -28,6 +39,14 @@ server.get("/api/tags", (req, res) => {
 //articles
 
 server.get("/api/articles", (req, res) => {
+  console.log(ArticlesData.getArticles);
+  const articles = ArticlesData.getArticles.articles;
+  const articlesCount = articles.length;
+
+  res.status(200).send({ articles, articlesCount });
+});
+
+server.get("/api/articles/feed", (req, res) => {
   console.log(ArticlesData.getArticles);
   const articles = ArticlesData.getArticles.articles;
   const articlesCount = articles.length;
