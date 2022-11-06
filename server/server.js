@@ -6,6 +6,7 @@ server.use(middleware);
 server.use(jsonServer.bodyParser);
 const userData = require("../server/data/users");
 const tagData = require("../server/data/tags");
+const ArticlesData = require("../server/data/articles");
 
 //users
 server.get("/api/users", (req, res) => {
@@ -22,6 +23,16 @@ server.post("/api/users/login", (req, res) => {
 server.get("/api/tags", (req, res) => {
   console.log(tagData.getTags);
   res.status(200).send(tagData.getTags);
+});
+
+//articles
+
+server.get("/api/articles", (req, res) => {
+  console.log(ArticlesData.getArticles);
+  const articles = ArticlesData.getArticles.articles;
+  const articlesCount = articles.length;
+
+  res.status(200).send({ articles, articlesCount });
 });
 
 server.listen(3000, () => {

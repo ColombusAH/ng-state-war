@@ -44,6 +44,7 @@ export class ArticleListComponent {
 
     this.articlesService.query(this.query)
     .subscribe(data => {
+      console.log(data)
       this.loading = false;
       this.results = data.articles;
 

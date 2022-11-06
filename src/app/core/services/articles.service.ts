@@ -20,6 +20,7 @@ export class ArticlesService {
     .forEach((key) => {
       params[key] = config.filters[key];
     });
+    console.log(config)
 
     return this.apiService
     .get(

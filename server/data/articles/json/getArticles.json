@@ -1,0 +1,180 @@
+{
+  "articles": [
+    {
+      "slug": "Hayden",
+      "title": "Konterra",
+      "description": "Quis ad sint deserunt ex nulla aute cillum nostrud consectetur ullamco reprehenderit.",
+      "body": "Sunt enim aute deserunt labore officia voluptate laboris fugiat nisi ut.",
+      "tagList": [
+        "excepteur",
+        "elit",
+        "aliquip",
+        "cillum",
+        "culpa",
+        "irure",
+        "est"
+      ],
+      "createdAt": "Fri Nov 29 1985 07:00:25 GMT+0000 (Etc Greenwich Standard Time)",
+      "updatedAt": "Thu Sep 05 1996 12:49:13 GMT+0000 (Etc Greenwich Standard Time)",
+      "favorited": false,
+      "favoritesCount": 0,
+      "author": {
+        "username": "Beverly",
+        "bio": "Cupidatat cillum culpa sint sunt Lorem commodo sit nisi ea aute aliquip excepteur sit.",
+        "image": "",
+        "following": true
+      }
+    },
+    {
+      "slug": "Marsh",
+      "title": "Odessa",
+      "description": "Velit amet id aliquip quis et amet proident dolore officia aliquip pariatur nulla.",
+      "body": "Adipisicing Lorem irure proident do.",
+      "tagList": [
+        "pariatur",
+        "labore",
+        "anim",
+        "dolore",
+        "non",
+        "cillum",
+        "pariatur"
+      ],
+      "createdAt": "Fri Nov 03 1978 10:04:35 GMT+0000 (Etc Greenwich Standard Time)",
+      "updatedAt": "Tue Apr 05 1994 06:00:07 GMT+0000 (Etc Greenwich Standard Time)",
+      "favorited": true,
+      "favoritesCount": 1,
+      "author": {
+        "username": "Petersen",
+        "bio": "Fugiat mollit id magna deserunt duis ipsum consequat officia do ex qui consectetur.",
+        "image": "",
+        "following": true
+      }
+    },
+    {
+      "slug": "Martinez",
+      "title": "Loma",
+      "description": "Veniam Lorem excepteur dolor consectetur minim magna consequat dolore.",
+      "body": "Consectetur pariatur in non officia fugiat id ipsum dolor.",
+      "tagList": ["ad", "veniam", "pariatur", "velit", "dolor", "et", "sint"],
+      "createdAt": "Sun Oct 22 1978 03:47:46 GMT+0000 (Etc Greenwich Standard Time)",
+      "updatedAt": "Tue Sep 26 2000 04:50:59 GMT+0000 (Etc Greenwich Standard Time)",
+      "favorited": true,
+      "favoritesCount": 2,
+      "author": {
+        "username": "Mia",
+        "bio": "Culpa laboris non non ut esse.",
+        "image": "",
+        "following": false
+      }
+    },
+    {
+      "slug": "Watson",
+      "title": "Mathews",
+      "description": "Labore eu incididunt nisi velit cupidatat duis mollit ex eu deserunt anim elit.",
+      "body": "Nulla sint ea elit aliquip tempor elit tempor fugiat.",
+      "tagList": ["aute", "ad", "et", "in", "aute", "labore", "aliqua"],
+      "createdAt": "Tue Apr 25 1972 18:37:32 GMT+0000 (Etc Greenwich Standard Time)",
+      "updatedAt": "Mon Aug 02 1971 05:17:56 GMT+0000 (Etc Greenwich Standard Time)",
+      "favorited": true,
+      "favoritesCount": 3,
+      "author": {
+        "username": "Livingston",
+        "bio": "Velit eu irure dolore adipisicing labore tempor incididunt esse exercitation eu pariatur consectetur.",
+        "image": "",
+        "following": true
+      }
+    },
+    {
+      "slug": "Green",
+      "title": "Chumuckla",
+      "description": "Nostrud elit magna consequat adipisicing anim tempor nisi cupidatat qui Lorem.",
+      "body": "Laborum non eu mollit labore reprehenderit non non.",
+      "tagList": ["aute", "incididunt", "ex", "ex", "id", "ipsum", "amet"],
+      "createdAt": "Wed Oct 23 1985 02:00:48 GMT+0000 (Etc Greenwich Standard Time)",
+      "updatedAt": "Tue Dec 13 1988 20:19:45 GMT+0000 (Etc Greenwich Standard Time)",
+      "favorited": true,
+      "favoritesCount": 4,
+      "author": {
+        "username": "Sabrina",
+        "bio": "Sunt velit fugiat aute officia minim dolore.",
+        "image": "",
+        "following": false
+      }
+    },
+    {
+      "slug": "Solis",
+      "title": "Ruffin",
+      "description": "Sunt irure ut veniam est.",
+      "body": "Anim tempor est labore laborum commodo elit cupidatat fugiat labore nostrud consectetur.",
+      "tagList": [
+        "mollit",
+        "ipsum",
+        "sint",
+        "labore",
+        "non",
+        "velit",
+        "voluptate"
+      ],
+      "createdAt": "Mon Oct 28 1991 13:10:26 GMT+0000 (Etc Greenwich Standard Time)",
+      "updatedAt": "Tue Apr 27 1993 04:38:40 GMT+0000 (Etc Greenwich Standard Time)",
+      "favorited": false,
+      "favoritesCount": 5,
+      "author": {
+        "username": "Christian",
+        "bio": "Veniam ullamco elit ut laborum esse laborum deserunt.",
+        "image": "",
+        "following": true
+      }
+    },
+    {
+      "slug": "Pickett",
+      "title": "Fivepointville",
+      "description": "Velit tempor enim sunt enim fugiat officia aliquip id ea mollit culpa magna et aliqua.",
+      "body": "Cillum ad proident reprehenderit sit anim consectetur.",
+      "tagList": [
+        "tempor",
+        "eiusmod",
+        "eiusmod",
+        "deserunt",
+        "amet",
+        "quis",
+        "quis"
+      ],
+      "createdAt": "Wed Jan 28 2015 12:29:52 GMT+0000 (Etc Greenwich Standard Time)",
+      "updatedAt": "Mon Jul 11 1988 15:11:05 GMT+0000 (Etc Greenwich Standard Time)",
+      "favorited": true,
+      "favoritesCount": 6,
+      "author": {
+        "username": "Mabel",
+        "bio": "Velit eiusmod velit irure Lorem est eu id amet laboris.",
+        "image": "",
+        "following": false
+      }
+    },
+    {
+      "slug": "Frye",
+      "title": "Weeksville",
+      "description": "Ipsum in elit aute nisi anim dolore aliqua quis mollit.",
+      "body": "Deserunt amet culpa eu irure Lorem elit consectetur anim cillum nulla cupidatat consequat nisi.",
+      "tagList": [
+        "ex",
+        "ut",
+        "nisi",
+        "quis",
+        "consequat",
+        "occaecat",
+        "reprehenderit"
+      ],
+      "createdAt": "Wed Jul 01 1981 05:43:33 GMT+0000 (Etc Greenwich Standard Time)",
+      "updatedAt": "Tue Feb 26 2008 23:48:11 GMT+0000 (Etc Greenwich Standard Time)",
+      "favorited": false,
+      "favoritesCount": 7,
+      "author": {
+        "username": "Harper",
+        "bio": "Esse ea aute exercitation proident aute culpa sunt ex minim consequat eu pariatur ut.",
+        "image": "",
+        "following": true
+      }
+    }
+  ]
+}
