@@ -36,7 +36,7 @@ export class ArticleComponent implements OnInit {
   ngOnInit() {
     // Retreive the prefetched article
     this.route.data.subscribe(
-      (data: { article: Article }) => {
+      (data: { article: Article; }) => {
         this.article = data.article;
 
         // Load the comments on this article
@@ -60,7 +60,7 @@ export class ArticleComponent implements OnInit {
     if (favorited) {
       this.article.favoritesCount++;
     } else {
-      this.article.favoritesCount--;
+      this.article.favoritesCount -= this.article.favoritesCount > 0 ? 1 : 0;
     }
   }
 
